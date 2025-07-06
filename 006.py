@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 n1=int(input('escolha um número: '))
 print(f'O dobro de {n1} é {n1*2}\nO triplo de {n1} é {n1*3}\nA raiz quadrada de {n1} é {n1**(1/2):.2f}')
+=======
+n1=int(input('escolha um número: '))
+print(f'O dobro de {n1} é {n1*2}\nO triplo de {n1} é {n1*3}\nA raiz quadrada de {n1} é {n1**(1/2):.2f}')
+>>>>>>> 906f683d003e5866a5a93655b2e63bfb4323763d
