@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 from random import shuffle
+=======
+>>>>>>> 0af5b84 (adicionar todos os arquivos)
 
+from random import shuffle
 
 print('coloque os nomes de quatro alunos abaixo e uma ordem aleaiória será selecionada')
 a=input('primeiro aluno:')
