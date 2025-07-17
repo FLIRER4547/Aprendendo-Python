@@ -10,15 +10,15 @@ while True:
     if y.strip()=='':
         y2=datetime.now().strftime('%Y')
         if int(y2)%4>0:
-            print(f'Ao analisar o ano que seu computador está, eu conlui que seu ano \033[1;33mNÃO é BISSEXTO.\033[0m')
+            print(f'\033[1;7;31mAo analisar o ano que seu computador está, eu conlui que seu ano NÃO é BISSEXTO.\033[0m')
         elif int(y2)%4==0 and int(y2)%100>0 or int(y2)%400==0:
-            print('ao analisar a data do seu computador, eu conclui que seu ano é \033[32mBISSEXTO\033[0m.')
+            print('\033[1;7;32mao analisar a data do seu computador, eu conclui que seu ano é BISSEXTO\033[0m.')
     else:
         if int(y) % 4 == 0 and int(y) % 100 > 0 or int(y) % 400 == 0:
-            print('O ano digitado é \033[1;35mBISSEXTO.')
+            print('\033[1;7;32mO ano digitado é BISSEXTO.\033[0m')
         elif int(y)%4>0 or int(y)%100==0:
-            print('O ano Digitado \033[1;31mNÃO\033[0m é \033[1;35mBISSEXTO\033[0m.')
-    reiniciar=input('''\033[1;7;32maperte ENTER caso queira reiniciar o código, ou digite '1' caso queira encerrar\033[0m: ''')
+            print('\033[1;7;31mO ano Digitado NÃO é BISSEXTO.\033[0m')
+    reiniciar=input('''\033[1;33maperte ENTER caso queira reiniciar o código, ou digite '1' caso queira encerrar\033[0m: ''')
     if reiniciar.strip()=='':
         print('\033[1;32m Reiniciando...\033[0m')
         sleep(2)
