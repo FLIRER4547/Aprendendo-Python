@@ -2,7 +2,6 @@
 
 Este repositório contém meus estudos, exercícios e projetos realizados durante minha jornada de aprendizado da linguagem de programação **Python**.
 
-## 📁 Estrutura do Repositório
 
 
 ## 📌 Objetivo
