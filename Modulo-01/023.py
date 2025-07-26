@@ -1,0 +1,5 @@
+n=int(input('Digite um número de 0 a 9999: '))
+print(f' a unidade é: {n%1000%100%10}')
+print(f'a dezena é: {n%1000%100//10}')
+print(f'a centena é: {n%1000//100}')
+print(f'o milhar é: {n//1000}')
