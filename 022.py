@@ -1,5 +1,0 @@
-a=str(input('digite seu nome completo: ').strip())
-print(f'A sua frase em lower é: \033[1;4;35m{a.lower()}\033[0m')
-print(f'A frase em upper é: \033[1;4;35m{a.upper()}\033[0m')
-print(f'A frase tem um total de \033[1;4;35m{len(a)-a.count(' ')}\033[0m letras.')
-print(f'A primeira palavra da frase é \033[1;4;31m{a.split()[0].capitalize()}\033[0m tem um total de \033[1;4;35m{len(a.split()[0])}\033[0m letras')
